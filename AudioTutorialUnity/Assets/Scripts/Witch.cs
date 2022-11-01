@@ -21,7 +21,7 @@ public class Witch : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
-        audioSrc = GetComponent<AudioSource>)();
+        audioSrc = GetComponent<AudioSource>();
         audioClp = audioSrc.clip;
     }
 
@@ -29,7 +29,7 @@ public class Witch : MonoBehaviour
     {
       if(other.tag == "Player")
         {
-            anim.SetTrigger(animtionParamater, true);
+            //anim.SetTrigger(animtionParamater, true);
         }
     }
 
